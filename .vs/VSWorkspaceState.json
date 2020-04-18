@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\archetypes",
-    "\\content",
-    "\\content\\post",
     "\\themes",
-    "\\themes\\casper-two",
+    "\\themes\\casper-two\\exampleSite",
+    "\\themes\\casper-two\\exampleSite\\static",
+    "\\themes\\casper-two\\exampleSite\\static\\img",
     "\\themes\\casper-two\\layouts",
-    "\\themes\\casper-two\\layouts\\_default"
+    "\\themes\\casper-two\\layouts\\page",
+    "\\themes\\casper-two\\layouts\\partials",
+    "\\themes\\casper-two\\static",
+    "\\themes\\casper-two\\static\\built"
   ],
-  "SelectedNode": "\\config.toml",
+  "SelectedNode": "\\themes\\casper-two",
   "PreviewInSolutionExplorer": false
 }
