@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\themes"
+    "\\archetypes",
+    "\\content",
+    "\\content\\post",
+    "\\themes",
+    "\\themes\\casper-two",
+    "\\themes\\casper-two\\layouts",
+    "\\themes\\casper-two\\layouts\\_default"
   ],
-  "SelectedNode": "\\themes",
+  "SelectedNode": "\\config.toml",
   "PreviewInSolutionExplorer": false
 }
