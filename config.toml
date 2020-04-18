@@ -1,3 +1,60 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Hugo Casper Two"
+  subtitle    = "JourneyCode"
+
+  cover       = "Uploads/Animals.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "priestlyharp"
+  fbName = "james.lee.228"
+  githubName = "JourneyCode"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "JourneyCode"
+  authorAvatar = "Uploads/Logo.jpg"
+  authorLocation = "San Francisco, CA"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Teacher"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
